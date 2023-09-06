@@ -8,7 +8,7 @@ body{
     background: #c4c2;
 }
 .quiz{
-    width: 50%;
+    /* width: 50%; */
     background-color: beige;
     margin:80px auto 0;
     max-width:600px;
@@ -39,7 +39,6 @@ quiz-content h2{
     padding: 10px;
     margin:10px 0;
     text-align: left;
-
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s;

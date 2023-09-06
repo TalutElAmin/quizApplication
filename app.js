@@ -43,7 +43,88 @@ const questions= [
             {text: "Adobe xD", correct: false},
             {text: "Wireframe", correct: false},
         ]
-    }
+    },
+    {
+        question: "which of the following is an operating system?",
+        answers: [
+            {text: "Dell", correct: false},
+            {text: "Windows Xp", correct: true},
+            {text: "Yahoo", correct: false},
+            {text: "Microsoft", correct: false},
+        ]
+    },
+    {
+        question: "which of the following computer language is written in binary form?",
+        answers: [
+            {text: "Java", correct: false},
+            {text: "C#", correct: false},
+            {text: "Pascal", correct: false},
+            {text: "Machine language", correct: true},
+        ]
+    },
+    {
+        question: "which of the following is not related to Computer?",
+        answers: [
+            {text: "Accuracy", correct: false},
+            {text: "Speed", correct: false},
+            {text: "Consistency", correct: false},
+            {text: "Thinking", correct: true},
+        ]
+    },
+    {
+        question: "The term pentium is related to which of the following computer parts?",
+        answers: [
+            {text: "RAM", correct: false},
+            {text: "Microprocessor", correct: true},
+            {text: "HDD", correct: false},
+            {text: "Non of the above", correct: false},
+        ]
+    },
+    {
+        question: "What is meant by GUI in computer?",
+        answers: [
+            {text: "Graphic Unique interface", correct: false},
+            {text: "Graph user interface", correct: false},
+            {text: "Graphical User Interface", correct: true},
+            {text: "Graphical universal interface", correct: false},
+        ]
+    },
+    {
+        question: "Nigeria officially became a democracy on it independence ffom Britain in October?",
+        answers: [
+            {text: "1960", correct: true},
+            {text: "2000", correct: false},
+            {text: "2010", correct: false},
+            {text: "1999", correct: false},
+        ]
+    },
+    {
+        question: "which of the these state is the FCT of Nigeria?",
+        answers: [
+            {text: "Kano", correct: false},
+            {text: "Lagos", correct: false},
+            {text: "Abuja", correct: true},
+            {text: "Aba", correct: false},
+        ]
+    },
+    {
+        question: "what converts an entire program into machine language?",
+        answers: [
+            {text: "Mouse", correct: false},
+            {text: "Compiler", correct: true},
+            {text: "Electrons", correct: false},
+            {text: "Keyboard", correct: false},
+        ]
+    },
+    {
+        question: "First page of website is termed as ______?",
+        answers: [
+            {text: "Homepage", correct: true},
+            {text: "Electronic page", correct: false},
+            {text: "FrontEnd", correct: false},
+            {text: "BackEnd", correct: false},
+        ]
+    },
     
 ];
 const questionElement = document.getElementById("question");
